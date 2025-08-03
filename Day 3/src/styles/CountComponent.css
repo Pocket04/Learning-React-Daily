@@ -1,0 +1,36 @@
+.count-container {
+    margin: auto;
+    justify-items: center;
+    align-items: center;
+    background-color: darkgrey;
+    border-radius: 5px;
+    border: black solid;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    min-width: 15vw;
+    min-height: 30vh;
+}
+
+.count-container p{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.button-container {
+    margin-top: auto;
+    display: flex;
+    gap: 10px;
+}
+
+.button-container button {
+    height: 8vh;
+    width: 8vh;
+    border-radius: 5px;
+    background-color: grey;
+}
+
+button:hover{
+    background-color: darkgray;
+    transition: 0.3s;
+}
