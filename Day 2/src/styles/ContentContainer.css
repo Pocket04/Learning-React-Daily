@@ -1,0 +1,10 @@
+.content {
+    justify-items: center;
+    align-content: center;
+    margin: auto;
+    background-color: #888888;
+    min-width: 20vw;
+    min-height: 35vh;
+    border-radius: 5px;
+    border: black solid;
+}
