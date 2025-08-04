@@ -1,0 +1,14 @@
+.effect-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.details {
+    background-color: beige;
+    border: 2px black solid;
+    max-width: 30vw;
+    border-radius: 5px;
+    height: 30vh;
+    width: 30vw;
+    text-align: center;
+}
