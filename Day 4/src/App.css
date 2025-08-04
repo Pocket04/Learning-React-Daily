@@ -1,0 +1,8 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: dimgrey;
+  min-height: 100vh;
+  margin: 0;
+  align-items: center;
+}

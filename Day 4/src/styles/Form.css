@@ -1,0 +1,32 @@
+.form {
+ background-color: grey;
+    display: flex;
+    flex-direction: column;
+    max-width: 25vw;
+    min-height: 30vh;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px black solid;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 5px 25px 5px #414341;
+}
+.form p{
+    font-weight: bold;
+    font-size: 25px;
+}
+.form input {
+    border-radius: 5px;
+    height: 25px;
+    width: 250px;
+}
+.form button {
+    border-radius: 5px;
+}
+
+.form button:hover{
+    background-color: #414341;
+    transition: 0.5s;
+    cursor: pointer;
+}
