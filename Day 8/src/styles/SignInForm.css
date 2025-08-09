@@ -1,0 +1,24 @@
+.signin-form{
+    background-color: darkgrey;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 5px 10px black;
+    width: 20vw;
+    height: 30vh;
+    align-items: center;
+    justify-content: center;
+}
+.signin-form label{
+    font-weight: bold;
+    font-size: 3vh;
+    margin-bottom: 5px;
+}
+.signin-form input {
+    border-radius: 5px;
+}
+.signin-form button {
+    border-radius: 5px;
+    margin-top: 6vh;
+}
