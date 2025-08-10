@@ -1,0 +1,25 @@
+nav{
+    display: flex;
+    gap: 20px;
+    background-color: grey;
+    height: 7vh;
+    border-radius: 5px;
+    margin: 1vh;
+    align-items: center;
+    padding-left: 2vh;
+    font-size: large;
+}
+a{
+    color: lightgray;
+    text-decoration: none;
+}
+a:hover{
+    color: darkgrey;
+    transition: 0.25s;
+}
+.user-info{
+    gap: 20px;
+    display: flex;
+    padding: 2vh;
+    margin-left: auto;
+}

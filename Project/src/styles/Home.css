@@ -1,0 +1,40 @@
+form{
+    max-width: 50vw;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+textarea {
+    margin-top: 3vh;
+    background-color: lightgray;
+    width: 500px;
+    max-width: 50vw;
+    height: 100px;             /* fixed height */
+    padding: 10px;             /* space inside */
+    font-family: inherit;      /* inherit font from parent */
+    font-size: 16px;
+    line-height: 1.5;
+    border: 2px solid #ccc;    /* border style */
+    border-radius: 6px;        /* rounded corners */
+    resize: vertical;          /* allow vertical resizing only */
+    box-sizing: border-box;    /* include padding and border in width */
+    transition: border-color 0.3s ease;
+}
+
+textarea:focus {
+    border-color: #007BFF;     /* blue border on focus */
+    outline: none;             /* remove default outline */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.posts{
+    justify-items: center;
+    gap: 20px;
+}
+.uploaded-posts{
+    width: 500px;
+    max-width: 50vw;
+    min-height: 10vh;
+    background-color: lightgray;
+}
